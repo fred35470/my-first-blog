@@ -4,6 +4,7 @@
     <list default="true" id="f827098b-a050-4aa2-93da-ad7ab6a6320d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/css/blog.css" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" />
     </list>
     <ignored path="..djangogirls.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +82,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+            <state relative-caret-position="135">
+              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -92,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -474,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460128608850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modif du css (font-style 3eme essai...)">
+      <created>1460128766592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1460128766592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +523,8 @@
     <MESSAGE value="Modif du template de base (pb police Lobster)" />
     <MESSAGE value="Modif du css (font-style)" />
     <MESSAGE value="Modif du css (font-style 2eme essai...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modif du css (font-style 2eme essai...)" />
+    <MESSAGE value="Modif du css (font-style 3eme essai...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif du css (font-style 3eme essai...)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        <state relative-caret-position="135">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -934,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>
