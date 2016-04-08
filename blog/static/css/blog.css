@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: "Lobster";
+    src: url("Lobster 1.4.otf");
+}
+
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
