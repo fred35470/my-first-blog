@@ -7,13 +7,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <!--<link href="http://fonts.googleapis.com/css?family=Lobster&subset=all" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <title>Le blog de Fred</title>
 </head>
 <body>
     <div class="page-header">
-        <h1><a href="">Le blog des Filles Django et de Frédéric</a></h1>
+        {% if user.is_authenticated %}
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        {% endif %}
+        <h1><a href="/">Le blog des Filles Django et de Frédéric</a></h1>
         <br>
     </div>
     <div class="content container">
